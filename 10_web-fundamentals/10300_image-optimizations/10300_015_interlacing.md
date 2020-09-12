@@ -1,4 +1,0 @@
-# Interlacing
-
-TODO
-

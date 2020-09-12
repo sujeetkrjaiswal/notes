@@ -1,4 +1,0 @@
-# Same Origin
-
-TODO
-

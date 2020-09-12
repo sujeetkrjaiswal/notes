@@ -1,4 +1,0 @@
-# Web Workers
-
-TODO
-

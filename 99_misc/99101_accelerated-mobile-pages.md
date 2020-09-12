@@ -1,4 +1,0 @@
-# Accelerated Mobile Pages
-
-TODO
-

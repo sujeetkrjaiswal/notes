@@ -1,4 +1,0 @@
-# Dynamic Bindings
-
-TODO
-

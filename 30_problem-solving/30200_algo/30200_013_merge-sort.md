@@ -1,4 +1,0 @@
-# Merge Sort
-
-TODO
-

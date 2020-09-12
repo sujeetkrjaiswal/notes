@@ -1,4 +1,0 @@
-# Content Security Policy
-
-TODO
-

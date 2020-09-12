@@ -1,4 +1,0 @@
-# Responsive
-
-TODO
-

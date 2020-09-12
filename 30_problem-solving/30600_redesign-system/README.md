@@ -1,4 +1,0 @@
-# Redesign System
-
-TODO
-
