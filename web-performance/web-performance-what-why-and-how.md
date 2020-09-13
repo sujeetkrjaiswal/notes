@@ -52,9 +52,9 @@ This part of the Performance tries to answer "Is it delightful"
 
 Improving memory and power usage is as important as improving startup time. 
 
-Modern CPUs can enter a low-power mode when idle. An application that fires unnecessary timers or keeps unnecessary animations, prevents CPUs from entering low power mode. In a world where most of the users use battery-powered devices such as mobiles, tab, and laptops, power savings are important factors.
+Modern CPUs can enter a low-power mode when idle. An application that fires unnecessary timers or keeps unnecessary animations, prevents CPUs from entering low power mode. In a world where most of the users use battery-powered devices such as mobiles, tab, and laptops, power saving is an important factor.
 
-When applications are sent to the background, applications should be able to drop as many loaded resources in memory as possible in order to use less memory when running in the background. You can listen to`visibilityChange`event and drop the resources from in-memory and may be stored in browser storage like indexedDB or just cache in the browser. Application getting pushed to the background is now much more common since the usage over phone and tabs has increased.
+When applications are sent to the background, applications should be able to drop as many loaded resources in memory as possible in order to use less memory when running in the background. You can listen to an event\(`visibiltyChange`\) and drop the resources from in-memory and if required later,  store in browser storage like indexedDB or just cache in the browser. Application getting pushed to the background is now much more common since the usage over phone and tabs has increased.
 
 ## Why is Web Performance Important?
 
@@ -65,27 +65,23 @@ Here are some real-world examples of performance improvements:
 * [Tokopedia reduced render time from 14s to 2s for 3G connections and saw a 19% increase in visitors, 35% increase in total sessions, 7% increase in new users, 17% increase in active users and 16% increase in sessions per user.](https://wpostats.com/2018/05/30/tokopedia-new-users.html)
 * [Rebuilding Pinterest pages for performance resulted in a 40% decrease in wait time, a 15% increase in SEO traffic and a 15% increase in conversion rate to signup.](https://wpostats.com/2017/03/10/pinterest-seo.html)
 
-## How long is too long?
+### How long is too long?
 
-* Load Goal: The site should load "under a second"
-* Idling Goal: &lt;= 50ms
-* Animation Goal: &gt;=60fps \(&lt;= 16.7ms\) =&gt; includes scripting, reflow and repaint. 6ms is generally taken for reflow and repaint so you have 10ms to do your logic
-* Responsiveness: 50-100ms
+> There are no clear set rules as to what constitutes a slow pace when loading pages, but there are specific guidelines for indicating content will load \(1 second\), idling \(50ms\), animating \(16.7s\) and responding to user input \(50 to 200ms\). - [MDN](https://developer.mozilla.org/en-US/docs/Web/Performance/How_long_is_too_long)
 
-For metrics:
+As per google guidelines on "[web vitals](https://web.dev/vitals/)", below are the three major metrics and their time 
 
-* LCP = 2.5s - 4.0s
-* FID = 100ms - 300ms
-* CLS = 0.1 - 0.25
+![](../.gitbook/assets/lcp_ux.svg)
 
+![](../.gitbook/assets/fid_ux.svg)
+
+![](../.gitbook/assets/cls_ux.svg)
 
 
-* [https://developer.mozilla.org/en-US/docs/Web/Performance/How\_long\_is\_too\_long](https://developer.mozilla.org/en-US/docs/Web/Performance/How_long_is_too_long)
-* [https://web.dev/vitals/](https://web.dev/vitals/)
 
 ## How can we measure this?
 
-Real-world performance is highly variable due to differences in users' devices, network connections, and other factors. There are two types of data that you can use to measure this namely Lab data and Field data.
+Real-world performance is highly variable due to differences in users' devices, network connections, and other factors. Lab data and Field data are the two approaches to measure web performance.
 
 **Lab data** is performance data collected within a controlled environment with a predefined device and network settings, while **Field data** \(also called **Real User Monitoring or RUM**\) is performance data collected from real page loads experienced by your users in the wild.
 
@@ -97,13 +93,15 @@ Measuring Field data
 
 [Chrome User Experience Report \(CrUX\)](https://developers.google.com/web/tools/chrome-user-experience-report/) provides metrics showing how real-world Chrome users experience popular destinations on the web.
 
-Read "[Web Performance Metrics](web-performance-metrics.md)" for details on all the metrics related to web performance, their importance and how can you improve those individual metrics.
+> Refer "[Web Performance Metrics](web-performance-metrics.md)" for details on all the metrics related to web performance, their importance and how can you improve those metrics.
 
-Read "[Measuring Web Performance](measuring-web-performance.md)" to get details about measuring web performance, why is it essential to measure and how can we measure different metrics.
+> Refer  "[Measuring Web Performance](measuring-web-performance.md)" for details about measuring web performance, why is it necessary to measure and how can we measure different metrics.
 
-Read "[Lighthouse - Auditing your web application](lighthouse-auditing-your-web-application.md)" to know details about the lighthouse, how to use lighthouse, and how to understand the reports generated by the lighthouse.
+> Refer "[Lighthouse - Auditing your web application](lighthouse-auditing-your-web-application.md)" for details about the lighthouse, how to use lighthouse, and how to understand the reports generated by the lighthouse.
 
 ## How can we improve web performance?
+
+> Refer [Web Performance Optimizations](web-performance-optimizations.md) for exhaustive list of improvements that can be done.
 
 The performance can be improved by focusing on the below four factors:
 
