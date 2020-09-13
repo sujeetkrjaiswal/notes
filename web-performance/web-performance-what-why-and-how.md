@@ -1,7 +1,7 @@
 ---
 description: >-
-  Focus on What it is, Why is this important and How can we measure and improve
-  it
+  What is Web Performance, Why is it important and How can you measure it and
+  improve it?
 ---
 
 # Web Performance - What, Why & How
@@ -13,9 +13,9 @@ Web performance is all about making sites fast, including making the slow ones s
 When a user navigates to a page, they are looking out for a certain type of feedback and experience. Below are the most critical questions that the user might have when visiting a site.
 
 * Is it happening?: Did the navigation happen successfully? Has the server responded?
-* Is it useful?: Did sufficient content rendered that I can engage with?
+* Is it useful?: Did sufficient content render that I can engage with?
 * Is it usable?: Can I interact with the page or is it still loading?
-* Is it Delightful?: Are the interactions smooth and natural, free of lag, and jank?
+* Is it Delightful?: Are the interactions smooth and natural, free of lag & jitter?
 
 > Ultimately, user-perceived performance is the only performance that matters. - [MDN](https://developer.mozilla.org/en-US/docs/Web/Performance/Fundamentals)
 
@@ -27,17 +27,17 @@ When we talk about Web Performance, below are the major factors that are conside
 
 A lot of people talk in terms of "a site took x.yz sec. to load", but it is not a single moment in time, instead it has multiple moments that can change the perception of a site being "fast" or "slow".
 
-Answers to "Is it happening?"
+_**Is it happening?**_
 
 * **First Paint** is the point at which sufficient application resources have been loaded to paint an initial frame.
 * **First Contentful Paint** is the point at which the first text or image is painted.
 
-Answers to "Is it Useful?"
+_**Is it Useful?**_
 
 * **First Meaningful Paint** is the point at which the primary content of the page has been loaded. \(Deprecated in favor of LCP\)
 * The **Largest Contentful Paint** is the point at which the largest text or image is painted. 
 
-Answers to "Is it Usable?"
+_**Is it Usable?**_
 
 * **Time to Interactive** is the time it takes to become fully interactive.
 
@@ -45,8 +45,8 @@ Answers to "Is it Usable?"
 
 This part of the Performance tries to answer "Is it delightful"
 
-* Responsiveness refers to the time taken by a page to respond to user interaction. Generally, it should be between 50ms to 100ms to make sure the user doesn't feel any lag.
-* Framerate: Human eye can detect any lag below 60fps and hence when we are adding animations or transition or scrolling to our application, we need to make sure that it happens at &gt;=60fps which will make a better user experience in terms of smoothness.
+* **Responsiveness** refers to the time taken by a page to respond to user interaction. Generally, it should be between 50ms to 100ms to make sure the user doesn't feel any lag.
+* **Frame rate**: Human eye can detect any lag below 60fps and hence when we are adding animations or transition or scrolling to our application, we need to make sure that it happens at &gt;=60fps which will make a better user experience in terms of smoothness.
 
 #### Memory and Power Usage
 
@@ -58,16 +58,18 @@ When applications are sent to the background, applications should be able to dro
 
 ## Why is Web Performance Important?
 
-Reducing the download and render time of a site improves user experience and user satisfaction and subsequently improving conversion rates and user retention.
+Reducing the download and render time of a site improves user experience and user satisfaction, consequently improving conversion rates and user retention.
+
+Visit "[WPO Stats](https://wpostats.com/)" for Case studies and experiments demonstrating the impact of web performance optimization \(WPO\) on user experience and business metrics.
 
 Here are some real-world examples of performance improvements:
 
-* [Tokopedia reduced render time from 14s to 2s for 3G connections and saw a 19% increase in visitors, 35% increase in total sessions, 7% increase in new users, 17% increase in active users and 16% increase in sessions per user.](https://wpostats.com/2018/05/30/tokopedia-new-users.html)
-* [Rebuilding Pinterest pages for performance resulted in a 40% decrease in wait time, a 15% increase in SEO traffic and a 15% increase in conversion rate to signup.](https://wpostats.com/2017/03/10/pinterest-seo.html)
-
+* [Rossignol.com improved their load time by 1.9 seconds and cut their Speed Index by a factor of 10, contributing to a 94% improvement in conversion rate when compared to the year prior.](https://www.fasterize.com/en/blog/fasterize-helps-rossignol-divide-its-web-page-load-time-by-10/)
+* [A Google study over millions of page impressions found that when a site meets the recommended thresholds for the Core Web Vitals metrics, users are at least 24% less likely to abandon a page before it finishes loading.](https://blog.chromium.org/2020/05/the-science-behind-web-vitals.html)
+* 
 ### How long is too long?
 
-> There are no clear set rules as to what constitutes a slow pace when loading pages, but there are specific guidelines for indicating content will load \(1 second\), idling \(50ms\), animating \(16.7s\) and responding to user input \(50 to 200ms\). - [MDN](https://developer.mozilla.org/en-US/docs/Web/Performance/How_long_is_too_long)
+> There are no clear set rules as to what constitutes a slow pace when loading pages, but there are specific guidelines for indicating content will load \(1 second\), idling \(50ms\), animating \(16.7ms\) and responding to user input \(50 to 200ms\). - [MDN](https://developer.mozilla.org/en-US/docs/Web/Performance/How_long_is_too_long)
 
 As per google guidelines on "[web vitals](https://web.dev/vitals/)", below are the three major metrics and their time 
 
@@ -90,7 +92,7 @@ Lighthouse is the most popular tool to measure Lab data. You can use the below s
 1. Open a website you want to measure.
 2. Open Chrome Dev Tool and navigate to Lighthouse Tab
 3. Select Categories you want to measure \(Performance\) and Device \(Mobile or Desktop\)
-4. Click the Generate report button.
+4. Click the Generate Report button.
 
 Once the report is generated, you will see something similar to the below image which measures the most important pre-defined user-centric metrics.
 
