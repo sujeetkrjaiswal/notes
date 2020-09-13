@@ -85,15 +85,35 @@ Real-world performance is highly variable due to differences in users' devices, 
 
 **Lab data** is performance data collected within a controlled environment with a predefined device and network settings, while **Field data** \(also called **Real User Monitoring or RUM**\) is performance data collected from real page loads experienced by your users in the wild.
 
-Measuring Lab data
+Lighthouse is the most popular tool to measure Lab data. You can use the below steps measure. 
 
-Lighthouse is the most popular tool to measure Lab data. You can use the "Lighthouse" tab under Chrome Dev Tools. [Read more on Lighthouse.](https://developers.google.com/web/tools/lighthouse/)
+1. Open a website you want to measure.
+2. Open Chrome Dev Tool and navigate to Lighthouse Tab
+3. Select Categories you want to measure \(Performance\) and Device \(Mobile or Desktop\)
+4. Click the Generate report button.
 
-Measuring Field data
+Once the report is generated, you will see something similar to the below image which measures the most important pre-defined user-centric metrics.
+
+* First Contentful Paint
+* Speed Index
+* Largest Contentful Paint
+* Time to Interactive
+* Total Blocking time
+* Cumulative Layout Shift
+
+![](../.gitbook/assets/screenshot-2020-09-13-at-7.57.54-pm.png)
+
+You can also define custom metrics using the [Performance API](https://developer.mozilla.org/en-US/docs/Web/API/Performance).
+
+To measure Field data, the most common approach is to integrate analytics and tracking library with your application that will take care of reporting all the vital metrics.
+
+> Read [Web Performance Metrics](web-performance-metrics.md) for exhaustive list of pre-defined metrics, defining custom metrics, measuring and mitigating issues for each.
+
+
 
 [Chrome User Experience Report \(CrUX\)](https://developers.google.com/web/tools/chrome-user-experience-report/) provides metrics showing how real-world Chrome users experience popular destinations on the web.
 
-> Refer "[Web Performance Metrics](web-performance-metrics.md)" for details on all the metrics related to web performance, their importance and how can you improve those metrics.
+Read more
 
 > Refer  "[Measuring Web Performance](measuring-web-performance.md)" for details about measuring web performance, why is it necessary to measure and how can we measure different metrics.
 
