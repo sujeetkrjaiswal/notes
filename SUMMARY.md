@@ -4,6 +4,7 @@
 
 ## Web Performance
 
+* [Web Performance - What, Why & How](web-performance/web-performance-what-why-and-how.md)
 * [Web Performance: Everything you need to know](web-performance/web-performance-everything.md)
 * [Measuring Web Performance](web-performance/measuring-web-performance.md)
 
