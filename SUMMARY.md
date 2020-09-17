@@ -17,6 +17,7 @@
 * [Browser's Internals](internal-workings/browsers-internals.md)
 * [V8 Internals](internal-workings/v8-internals.md)
 * [Event Loop](internal-workings/event-loop.md)
+* [Code Optimization for V8](internal-workings/code-optimization-for-v8.md)
 
 ## Web Development Interviews
 
@@ -25,8 +26,4 @@
 ## Non Technical
 
 * [Conway's Game of Life](non-technical/conways-game-of-life.md)
-
----
-
-* [Code Optimization for V8](code-optimization-for-v8.md)
 
