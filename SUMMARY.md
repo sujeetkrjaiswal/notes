@@ -22,11 +22,13 @@
 ## Web Development Interviews
 
 * [Concepts](web-development-interviews/concepts.md)
-* [Event Loop Based Snippets](web-development-interviews/event-loop-based-snippets.md)
-
----
-
-* [Promise based Snippets](promise-based-snippets.md)
+* [Snippets](web-development-interviews/snippets/README.md)
+  * [Event Loop Based Snippets](web-development-interviews/snippets/snippets-event-loop.md)
+  * [Promise based Snippets](web-development-interviews/snippets/snippets-promises.md)
+* [Implementation](web-development-interviews/implementation/README.md)
+  * [Design Patterns](web-development-interviews/implementation/implementation-design-patterns.md)
+  * [Polyfills](web-development-interviews/implementation/implementation-polyfills.md)
+  * [Utility Methods](web-development-interviews/implementation/implementation-utility-methods.md)
 
 ## Non Technical
 
