@@ -22,6 +22,11 @@
 ## Web Development Interviews
 
 * [Concepts](web-development-interviews/concepts.md)
+* [Event Loop Based Snippets](web-development-interviews/event-loop-based-snippets.md)
+
+---
+
+* [Promise based Snippets](promise-based-snippets.md)
 
 ## Non Technical
 
