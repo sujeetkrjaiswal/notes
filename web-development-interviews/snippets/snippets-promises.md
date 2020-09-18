@@ -9,12 +9,18 @@ description: Snippets to understand promises
 * What is the output?
 * Is it render blocking? - why?
 
-```text
+```javascript
 function loop(n = 0) {
     console.log(`loop iteration: ${n}`)
     Promise.resolve(n+1).then(loop)
 }
 loop()
+```
+
+```javascript
+function test() {
+  console.log('TODO')
+}
 ```
 
 

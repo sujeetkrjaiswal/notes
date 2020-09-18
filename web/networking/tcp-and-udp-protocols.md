@@ -23,10 +23,10 @@ description: List of common protocols
 
 #### Discovery Related Protocol
 
-* SNMP
+* SNMP \(UDP\)
   * Simple Network Management Protocol
   * It collects information in your network about routers, switches, etc
-* NTP
+* NTP \(UDP\)
   * Network Time Protocol
   * Port - 123
   * Used for Time Synchronization
@@ -39,7 +39,7 @@ description: List of common protocols
     * Subnet mask
     * Default gateway
     * DNS
-* LDAP
+* LDAP \(Both\)
   * Lightweight Directory Access Protocol
   * Port - 389
   * Active Directory
@@ -54,7 +54,7 @@ description: List of common protocols
   * Port - 443
   * Uses TLS/SSL
 
-#### For Videos and Streaming
+#### For Videos and Streaming \(All UDP\)
 
 * SIP
   * Session Initiation Protocol

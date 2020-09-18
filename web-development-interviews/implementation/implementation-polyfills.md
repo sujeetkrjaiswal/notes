@@ -6,6 +6,10 @@ description: Common poly-fills implementation
 
 ### Array Prototype Methods
 
+{% embed url="https://gist.github.com/sujeetkrjaiswal/8156f17c3fcea19a611fa3b68f7b5dfd" %}
+
+
+
 #### For-Each
 
 #### Map
