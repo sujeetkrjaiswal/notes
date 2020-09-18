@@ -63,9 +63,28 @@ description: A model designed to standardise Compute Networking
 | Data Link | Frame | **Ethernet-**IP-TCP-Data**-Ethernet** |
 | Physical |  |  |
 
+* Data =&gt; the actual data to be used \(byte stream, images, etc\)
+* TCP =&gt; Port Number
+* IP =&gt; Source and Destination IP Addresses
+* Ethernet =&gt; Source and next destination Mac Address
+
 **Why does Data-Link add both header and trailer?**
 
 The Header stores information about source & destination. Whereas the trailer contains some data to check for error by the receiving end.
 
-### 3 Way Handshake
+#### DNS Resolution
+
+Process of converting a Domain name to specific IP Addresses. 
+
+#### Address Resolution Protocol \(ARP\)
+
+Process of getting the mac addresses when the IP address of the destination is known
+
+ARP Cache: static & dynamically learned entries
+
+```text
+arp -a
+```
+
+
 
