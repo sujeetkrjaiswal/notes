@@ -32,6 +32,8 @@
   * [XSS](web/security/xss.md)
   * [DOS and DDOS Attacks](web/security/ddos.md)
   * [Buffer Overflow Attack](web/security/buffer-overflow.md)
+* [React](web/react/README.md)
+  * [Reconciliation](web/react/reconciliation.md)
 
 ## Web Development Interviews
 
