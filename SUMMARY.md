@@ -33,6 +33,7 @@
   * [DOS and DDOS Attacks](web/security/ddos.md)
   * [Buffer Overflow Attack](web/security/buffer-overflow.md)
 * [React](web/react/README.md)
+  * [React Fiber Scheduler](web/react/react-fiber-scheduler.md)
   * [Reconciliation](web/react/reconciliation.md)
 
 ## Web Development Interviews

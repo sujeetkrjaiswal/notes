@@ -6,27 +6,15 @@ description: Common poly-fills implementation
 
 ### Array Prototype Methods
 
-{% embed url="https://gist.github.com/sujeetkrjaiswal/8156f17c3fcea19a611fa3b68f7b5dfd" %}
-
-
-
-#### For-Each
-
-#### Map
-
-#### Reduce
-
-#### Filter
-
-#### Find
+{% embed url="https://gist.github.com/sujeetkrjaiswal/8156f17c3fcea19a611fa3b68f7b5dfd" caption="Array method \(built-in\)" %}
 
 ### Promise Static Methods
 
-#### All
+{% embed url="https://gist.github.com/sujeetkrjaiswal/a91799ccc0d9c17e71c79538a0bca87e" %}
 
-#### All Settled
 
-#### Race
+
+#### 
 
 ### Object
 

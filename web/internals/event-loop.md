@@ -8,6 +8,8 @@
 2. Micro-task Queue: All the tasks in the queue must execute \(prev & any added during the execution\)
 3. Animation Queue: All pre-queued tasks, any task that was added during the current tick will not be executed in the current tick.
 
+CallStack consists of StackFrames. Each StackFrames have
+
 ## Videos
 
 {% embed url="https://youtu.be/cCOL7MC4Pl0" %}
