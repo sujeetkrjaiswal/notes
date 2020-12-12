@@ -35,6 +35,7 @@
 * [React](web/react/README.md)
   * [React Fiber Scheduler](web/react/react-fiber-scheduler.md)
   * [Reconciliation](web/react/reconciliation.md)
+  * [React Hooks](web/react/react-hooks.md)
 
 ## Web Development Interviews
 
