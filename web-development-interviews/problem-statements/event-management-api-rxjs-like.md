@@ -165,9 +165,26 @@ subject.next(4);
 
 #### Step 6: Support for scheduler
 
-Read more at: [https://rxjs-dev.firebaseapp.com/guide/scheduler](https://rxjs-dev.firebaseapp.com/guide/scheduler)
+Schedule Types \(Discuss on these\)
+
+| Scheduler Type | Description |
+| :--- | :--- |
+| queueScheduler | Schedules on a queue in the current event frame \(trampoline scheduler\). Use this for iteration operations. |
+| asapScheduler | Schedules on the micro task queue, which is the same queue used for promises. Basically after the current job, but before the next job. Use this for asynchronous conversions. |
+| animationFrameScheduler | Schedules task that will happen just before next browser content repaint. Can be used to create smooth browser animations |
+| asyncScheduler | Schedules work with `setInterval`. Use this for time-based operations. |
+| null | By not passing any scheduler, notifications are delivered synchronously and recursively. Use this for constant-time operations or tail recursive operations. |
 
 I don't think, candidates will be able to exceed this after step5. Even if they do, they would partially implement or discuss scheduler.
 
 **I can add additional steps if we need it.**
+
+### Divergence \(Other questions that can be asked based on above\)
+
+* Event loop 
+  * Macro task 
+  * Micro tasks
+  * Rendering Queue.
+* Event Delegation in browser
+* Syntatic events
 
