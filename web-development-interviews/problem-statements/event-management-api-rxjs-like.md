@@ -48,11 +48,8 @@ observable.subscribe({
   complete() { console.log('done'); }
 });
 console.log('just after subscribe');
-```
 
-Output of above code should be:
-
-```text
+/* Logs:
 just before subscribe
 got value 1
 got value 2
@@ -60,6 +57,7 @@ got value 3
 just after subscribe
 got value 4
 done
+*/
 ```
 
 #### Step 2: Add streaming functionality to it
@@ -74,11 +72,8 @@ observable2.subscribe({
   complete() { console.log('done'); }
 });
 console.log('just after subscribe');
-```
 
-Output of the above code should be
-
-```text
+/* Logs
 just before subscribe
 got value 2
 got value 4
@@ -86,6 +81,7 @@ got value 6
 just after subscribe
 got value 8
 done
+*/
 ```
 
 #### Step 3: Add a helper function to auto-create observables \(e.g. `fromEvent`\)
