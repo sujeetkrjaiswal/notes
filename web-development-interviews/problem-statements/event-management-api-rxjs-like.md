@@ -8,7 +8,7 @@ description: >-
 
 Note: Complete implementation is not necessary.
 
-The essential concepts in RxJS which solve async event management are:
+The essential concepts which solve async event management are:
 
 * **Observable:** represents the idea of an invokable collection of future values or events.
 * **Observer:** is a collection of callbacks that knows how to listen to values delivered by the Observable.
