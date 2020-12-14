@@ -84,6 +84,14 @@ done
 */
 ```
 
+This is a very important step in implementation. Check if the implementation is ready to be extensible and can support any type of operator. If required, ask them, what would you do, if you need to support any of the below operators:
+
+* map \(or any other operator which does n-&gt;n mapping\)
+* filter \(which done n-&gt; \(0&lt;=x&lt;=n\) mapping\)
+* tap \( as is, no action operators \)
+* scan / reduce \(aggregator functions\)
+* delay / debounce  / throttle  \(time based\)
+
 #### Step 3: Add a helper function to auto-create observables \(e.g. `fromEvent`\)
 
 ```javascript
@@ -154,4 +162,12 @@ subject.next(4);
 // observerB: 4
 
 ```
+
+#### Step 6: Support for scheduler
+
+Read more at: [https://rxjs-dev.firebaseapp.com/guide/scheduler](https://rxjs-dev.firebaseapp.com/guide/scheduler)
+
+I don't think, candidates will be able to exceed this after step5. Even if they do, they would partially implement or discuss scheduler.
+
+**I can add additional steps if we need it.**
 
