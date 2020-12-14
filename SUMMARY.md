@@ -48,6 +48,7 @@
   * [Polyfills](web-development-interviews/implementation/implementation-polyfills.md)
   * [Utility Methods](web-development-interviews/implementation/implementation-utility-methods.md)
 * [Problem Statements](web-development-interviews/problem-statements/README.md)
+  * [Event Management API \(RxJS like\)](web-development-interviews/problem-statements/event-management-api-rxjs-like.md)
   * [React hooks Implementation](web-development-interviews/problem-statements/react-hooks-implementation.md)
   * [Co-operative Scheduler](web-development-interviews/problem-statements/co-operative-scheduler.md)
   * [State Machine](web-development-interviews/problem-statements/state-machine.md)
