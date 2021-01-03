@@ -4,7 +4,8 @@
 
 ## Web
 
-* [Everything Web](web/everything-web.md)
+* [Everything Web](web/everything-web/README.md)
+  * [What happens when you hit a URL?](web/everything-web/what-happens-when-you-hit-a-url.md)
 * [Networking](web/networking/README.md)
   * [TCP & UDP Protocols](web/networking/tcp-and-udp-protocols.md)
   * [CDN](web/networking/cdn.md)
