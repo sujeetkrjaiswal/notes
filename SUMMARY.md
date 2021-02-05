@@ -37,6 +37,7 @@
   * [React Fiber Scheduler](web/react/react-fiber-scheduler.md)
   * [Reconciliation](web/react/reconciliation.md)
   * [React Hooks](web/react/react-hooks.md)
+  * [Improving React.Context Performance](web/react/improving-react.context-performance.md)
 
 ## Web Development Interviews
 
